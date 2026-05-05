@@ -68,15 +68,22 @@ jobs:
         if: runner.os == 'Windows'
         run: choco install ninja --no-progress -y
 
-      - name: Cache Qt
+      - name: Set up MSVC (Windows)
+        if: runner.os == 'Windows'
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Cache Qt (macOS / Windows)
         id: cache-qt
+        if: runner.os != 'Linux'
         uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/qt6
           key: qt-${{ env.QT_VERSION }}-${{ matrix.qt_arch }}-${{ runner.os }}
 
-      - name: Install Qt6
-        if: steps.cache-qt.outputs.cache-hit != 'true'
+      - name: Install Qt6 (macOS / Windows via aqt)
+        if: steps.cache-qt.outputs.cache-hit != 'true' && runner.os != 'Linux'
         uses: jurplel/install-qt-action@v4
         with:
           version: ${{ env.QT_VERSION }}
@@ -84,10 +91,19 @@ jobs:
           dir:     ${{ github.workspace }}/qt6
           cache:   true
 
+      - name: Install Qt6 (Linux via apt)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get install -y qt6-base-dev libqt6opengl6-dev
+
       - name: Set Qt6_DIR
         shell: bash
         run: |
-          echo "Qt6_DIR=${{ github.workspace }}/qt6/Qt/${{ env.QT_VERSION }}/${{ matrix.qt_arch }}/lib/cmake/Qt6" >> $GITHUB_ENV
+          if [ "${{ runner.os }}" = "Linux" ]; then
+            echo "Qt6_DIR=/usr/lib/x86_64-linux-gnu/cmake/Qt6" >> $GITHUB_ENV
+          else
+            echo "Qt6_DIR=${{ github.workspace }}/qt6/Qt/${{ env.QT_VERSION }}/${{ matrix.qt_arch }}/lib/cmake/Qt6" >> $GITHUB_ENV
+          fi
 
       - name: Cache FetchContent
         uses: actions/cache@v4

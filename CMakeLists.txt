@@ -153,7 +153,7 @@ set(FETCHCONTENT_QUIET OFF)     # Show download progress
 # Qt6 is NOT fetched via FetchContent — it must be installed separately.
 # Set Qt6_DIR or CMAKE_PREFIX_PATH to your Qt6 installation.
 # Example: cmake -DCMAKE_PREFIX_PATH=/opt/Qt/6.7.0/gcc_64 ...
-find_package(Qt6 6.7 REQUIRED COMPONENTS
+find_package(Qt6 6.4 REQUIRED COMPONENTS
     Core
     Gui
     Widgets
@@ -181,6 +181,16 @@ FetchContent_Declare(Clipper2
     SOURCE_SUBDIR  CPP
 )
 FetchContent_MakeAvailable(Clipper2)
+
+# Clipper2 1.3.0 adds -Werror to its own targets. Its Point<T> constructor uses
+# template-id syntax that is ill-formed in C++20 under -Wpedantic. Demote that
+# specific error back to a warning so only our code is held to -Werror.
+foreach(_tgt IN ITEMS Clipper2 Clipper2Z)
+    if(TARGET ${_tgt})
+        target_compile_options(${_tgt} PRIVATE
+            $<$<CXX_COMPILER_ID:GNU,Clang,AppleClang>:-Wno-error=template-id-cdtor>)
+    endif()
+endforeach()
 
 # ── GLM (math: vectors, matrices, quaternions) ────────────────────────────────
 FetchContent_Declare(glm
