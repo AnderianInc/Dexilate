@@ -1,0 +1,40 @@
+# Build output
+build/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# IDEs
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+
+# Qt
+*.pro.user
+
+# macOS
+.DS_Store
+
+# Compiled
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CPack
+_CPack_Packages/
+*.dmg
+*.exe
+*.deb
+*.AppImage
+
+# FetchContent cache outside build/
+_deps/

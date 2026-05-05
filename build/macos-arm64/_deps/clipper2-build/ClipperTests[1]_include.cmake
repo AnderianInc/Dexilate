@@ -1,5 +1,0 @@
-if(EXISTS "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/ClipperTests[1]_tests.cmake")
-  include("/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/ClipperTests[1]_tests.cmake")
-else()
-  add_test(ClipperTests_NOT_BUILT ClipperTests_NOT_BUILT)
-endif()

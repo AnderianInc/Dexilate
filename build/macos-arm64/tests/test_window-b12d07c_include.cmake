@@ -1,5 +1,0 @@
-if(EXISTS "/Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_window-b12d07c_tests.cmake")
-  include("/Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_window-b12d07c_tests.cmake")
-else()
-  add_test(test_window_NOT_BUILT-b12d07c test_window_NOT_BUILT-b12d07c)
-endif()

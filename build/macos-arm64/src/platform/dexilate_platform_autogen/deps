@@ -1,7 +1,0 @@
-dexilate_platform_autogen/timestamp: \
-	/Users/anderian/projects/Dexilate/src/platform/CMakeLists.txt \
-	/Users/anderian/projects/Dexilate/src/platform/src/Platform.cpp \
-	/Users/anderian/projects/Dexilate/src/platform/src/macos/MacClipboard.mm \
-	/Users/anderian/projects/Dexilate/src/platform/src/macos/MacFileSystem.mm \
-	/Users/anderian/projects/Dexilate/src/platform/src/macos/MacWindow.mm \
-	/opt/homebrew/bin/cmake
