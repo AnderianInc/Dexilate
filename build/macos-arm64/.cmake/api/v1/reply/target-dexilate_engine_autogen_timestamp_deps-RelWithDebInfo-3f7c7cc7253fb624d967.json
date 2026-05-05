@@ -1,0 +1,74 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/engine/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "dexilate_platform::@fcacbf0dd79acbb6fcc2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "dexilate_core::@0618756b1ff51bca1a0e"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "glm::@ce54d98d7b326a3e12a8"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "dexilate_engine_autogen_timestamp_deps::@d30147da1c6e0503853c",
+	"isGeneratorProvided" : true,
+	"name" : "dexilate_engine_autogen_timestamp_deps",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "dexilate_platform::@fcacbf0dd79acbb6fcc2"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "dexilate_core::@0618756b1ff51bca1a0e"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "glm::@ce54d98d7b326a3e12a8"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/engine",
+		"source" : "src/engine"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

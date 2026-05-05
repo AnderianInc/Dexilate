@@ -11,7 +11,7 @@
       "installDir": "${sourceDir}/install/${presetName}",
       "cacheVariables": {
         "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
-        "CANVAS_BUILD_TESTS": "ON"
+        "DEXILATE_BUILD_TESTS": "ON"
       }
     },
 
@@ -93,7 +93,7 @@
       "inherits": "windows-x64",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "CANVAS_ASAN": "ON"
+        "DEXILATE_ASAN": "ON"
       }
     },
 
@@ -137,7 +137,7 @@
       "inherits": "linux-x64",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "CANVAS_ASAN": "ON"
+        "DEXILATE_ASAN": "ON"
       }
     },
 
@@ -167,13 +167,51 @@
 
   "testPresets": [
     {
+      "name": "base-test",
+      "hidden": true,
+      "filter": {
+        "exclude": { "name": "^Clipper" }
+      }
+    },
+    {
       "name": "default",
+      "description": "Local test run — uses the CI preset which auto-detects platform",
+      "inherits": "base-test",
+      "configurePreset": "ci",
+      "output": { "outputOnFailure": true },
+      "execution": { "jobs": 4, "timeout": 120 }
+    },
+    {
+      "name": "macos-arm64",
+      "inherits": "base-test",
+      "configurePreset": "macos-arm64",
+      "output": { "outputOnFailure": true },
+      "execution": { "jobs": 4, "timeout": 120 }
+    },
+    {
+      "name": "macos-x64",
+      "inherits": "base-test",
+      "configurePreset": "macos-x64",
+      "output": { "outputOnFailure": true },
+      "execution": { "jobs": 4, "timeout": 120 }
+    },
+    {
+      "name": "windows-x64",
+      "inherits": "base-test",
+      "configurePreset": "windows-x64",
+      "output": { "outputOnFailure": true },
+      "execution": { "jobs": 4, "timeout": 120 }
+    },
+    {
+      "name": "linux-x64",
+      "inherits": "base-test",
       "configurePreset": "linux-x64",
       "output": { "outputOnFailure": true },
       "execution": { "jobs": 4, "timeout": 120 }
     },
     {
       "name": "ci",
+      "inherits": "base-test",
       "configurePreset": "ci",
       "output": { "outputOnFailure": true, "verbosity": "extra" },
       "execution": { "jobs": 4, "timeout": 300 }

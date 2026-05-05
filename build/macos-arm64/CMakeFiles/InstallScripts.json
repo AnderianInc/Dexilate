@@ -1,0 +1,19 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-build/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-build/glm/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/nlohmann_json-build/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/src/core/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/src/engine/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/src/ui/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/src/app/cmake_install.cmake",
+		"/Users/anderian/projects/Dexilate/build/macos-arm64/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

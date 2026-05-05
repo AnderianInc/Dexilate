@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20260505-1847-Experimental"
+	Name="Kunles-Mac-mini.local"
+	Generator="ctest-4.3.2"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="17.0.0.17000603"
+	OSName="macOS"
+	Hostname="Kunles-Mac-mini.local"
+	OSRelease="26.2"
+	OSVersion="25C56"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M4"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="10"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="10"
+	ProcessorClockFrequency="0.000000"
+	>
+	<Testing>
+		<StartDateTime>May 05 11:47 PDT</StartDateTime>
+		<StartTestTime>1778006870</StartTestTime>
+		<TestList/>
+		<EndDateTime>May 05 11:47 PDT</EndDateTime>
+		<EndTestTime>1778006870</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

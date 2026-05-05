@@ -1,0 +1,5 @@
+if(EXISTS "/Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_input_event-b12d07c_tests.cmake")
+  include("/Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_input_event-b12d07c_tests.cmake")
+else()
+  add_test(test_input_event_NOT_BUILT-b12d07c test_input_event_NOT_BUILT-b12d07c)
+endif()

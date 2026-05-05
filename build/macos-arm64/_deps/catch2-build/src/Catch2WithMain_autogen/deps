@@ -1,0 +1,7 @@
+Catch2WithMain_autogen/timestamp: \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/CMake/CatchMiscFunctions.cmake \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/CMakeLists.txt \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_user_config.hpp.in \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_main.cpp \
+	/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+	/opt/homebrew/bin/cmake

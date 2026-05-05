@@ -1,0 +1,854 @@
+[
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/Catch2_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/catch_chronometer.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/catch_chronometer.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/generators/catch_generators.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/generators/catch_generators.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_approx.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_approx.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_assertion_result.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_assertion_result.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_config.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_config.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_message.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_message.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_registry_hub.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_registry_hub.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_session.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_session.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_test_case_info.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_test_case_info.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_test_spec.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_test_spec.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_timer.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_timer.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_tostring.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_tostring.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_totals.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_totals.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_translate_exception.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_translate_exception.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_version.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/catch_version.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_clara.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_clara.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_context.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_context.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_istream.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_istream.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_list.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_list.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_result_type.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_result_type.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_section.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_section.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2WithMain_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/Catch2WithMain_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2WithMain_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2WithMain_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/Catch2WithMain_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/Catch2WithMain_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -ffile-prefix-map=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/= -o _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Werror -o _deps/clipper2-build/CMakeFiles/Clipper2.dir/Clipper2_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2.dir/Clipper2_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Werror -o _deps/clipper2-build/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.engine.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.engine.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.engine.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.engine.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Werror -o _deps/clipper2-build/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.offset.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.offset.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.offset.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.offset.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Werror -o _deps/clipper2-build/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.rectclip.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.rectclip.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.rectclip.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.rectclip.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -DUSINGZ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Z_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Werror -o _deps/clipper2-build/CMakeFiles/Clipper2Z.dir/Clipper2Z_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Z_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Z_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Z.dir/Clipper2Z_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -DUSINGZ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Z_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Werror -o _deps/clipper2-build/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.engine.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.engine.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.engine.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.engine.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -DUSINGZ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Z_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Werror -o _deps/clipper2-build/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.offset.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.offset.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.offset.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.offset.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -DUSINGZ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Z_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Werror -o _deps/clipper2-build/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.rectclip.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.rectclip.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/src/clipper.rectclip.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.rectclip.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2utils_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o _deps/clipper2-build/CMakeFiles/Clipper2utils.dir/Clipper2utils_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2utils_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2utils_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2utils.dir/Clipper2utils_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2utils_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o _deps/clipper2-build/CMakeFiles/Clipper2utils.dir/Utils/clipper.svg.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/clipper.svg.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/clipper.svg.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2utils.dir/Utils/clipper.svg.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2utils_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o _deps/clipper2-build/CMakeFiles/Clipper2utils.dir/Utils/ClipFileLoad.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileLoad.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileLoad.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2utils.dir/Utils/ClipFileLoad.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2utils_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o _deps/clipper2-build/CMakeFiles/Clipper2utils.dir/Utils/ClipFileSave.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileSave.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileSave.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2utils.dir/Utils/ClipFileSave.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -DUSINGZ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Zutils_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o _deps/clipper2-build/CMakeFiles/Clipper2Zutils.dir/Clipper2Zutils_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Zutils_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Zutils_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Zutils.dir/Clipper2Zutils_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -DUSINGZ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Zutils_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o _deps/clipper2-build/CMakeFiles/Clipper2Zutils.dir/Utils/clipper.svg.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/clipper.svg.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/clipper.svg.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Zutils.dir/Utils/clipper.svg.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -DUSINGZ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Zutils_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o _deps/clipper2-build/CMakeFiles/Clipper2Zutils.dir/Utils/ClipFileLoad.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileLoad.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileLoad.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Zutils.dir/Utils/ClipFileLoad.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DCLIPPER2_MAX_PRECISION=8 -DUSINGZ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/Clipper2Zutils_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -fPIC -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o _deps/clipper2-build/CMakeFiles/Clipper2Zutils.dir/Utils/ClipFileSave.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileSave.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileSave.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Zutils.dir/Utils/ClipFileSave.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-build/glm/glm_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Wno-c++98-compat -Wno-c++98-compat-pedantic -o _deps/glm-build/glm/CMakeFiles/glm.dir/glm_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-build/glm/glm_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-build/glm/glm_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-build/glm/CMakeFiles/glm.dir/glm_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-build/glm/glm_autogen/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -Wno-c++98-compat -Wno-c++98-compat-pedantic -o _deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src/glm/detail/glm.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src/glm/detail/glm.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/src/platform/src -I/Users/anderian/projects/Dexilate/build/macos-arm64/generated -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/dexilate_platform_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/platform/CMakeFiles/dexilate_platform.dir/dexilate_platform_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/dexilate_platform_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/dexilate_platform_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/CMakeFiles/dexilate_platform.dir/dexilate_platform_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/src/platform/src -I/Users/anderian/projects/Dexilate/build/macos-arm64/generated -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/dexilate_platform_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/platform/CMakeFiles/dexilate_platform.dir/src/Platform.cpp.o -c /Users/anderian/projects/Dexilate/src/platform/src/Platform.cpp",
+  "file": "/Users/anderian/projects/Dexilate/src/platform/src/Platform.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/CMakeFiles/dexilate_platform.dir/src/Platform.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/src/platform/src -I/Users/anderian/projects/Dexilate/build/macos-arm64/generated -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/dexilate_platform_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/platform/CMakeFiles/dexilate_platform.dir/src/macos/MacWindow.mm.o -c /Users/anderian/projects/Dexilate/src/platform/src/macos/MacWindow.mm",
+  "file": "/Users/anderian/projects/Dexilate/src/platform/src/macos/MacWindow.mm",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/CMakeFiles/dexilate_platform.dir/src/macos/MacWindow.mm.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/src/platform/src -I/Users/anderian/projects/Dexilate/build/macos-arm64/generated -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/dexilate_platform_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/platform/CMakeFiles/dexilate_platform.dir/src/macos/MacFileSystem.mm.o -c /Users/anderian/projects/Dexilate/src/platform/src/macos/MacFileSystem.mm",
+  "file": "/Users/anderian/projects/Dexilate/src/platform/src/macos/MacFileSystem.mm",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/CMakeFiles/dexilate_platform.dir/src/macos/MacFileSystem.mm.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/src/platform/src -I/Users/anderian/projects/Dexilate/build/macos-arm64/generated -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/dexilate_platform_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/platform/CMakeFiles/dexilate_platform.dir/src/macos/MacClipboard.mm.o -c /Users/anderian/projects/Dexilate/src/platform/src/macos/MacClipboard.mm",
+  "file": "/Users/anderian/projects/Dexilate/src/platform/src/macos/MacClipboard.mm",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/platform/CMakeFiles/dexilate_platform.dir/src/macos/MacClipboard.mm.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/core/include -I/Users/anderian/projects/Dexilate/src/core/src -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/core/dexilate_core_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/core/CMakeFiles/dexilate_core.dir/dexilate_core_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/src/core/dexilate_core_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/core/dexilate_core_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/core/CMakeFiles/dexilate_core.dir/dexilate_core_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/engine/include -I/Users/anderian/projects/Dexilate/src/engine/src -I/Users/anderian/projects/Dexilate/src/core/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -I/Users/anderian/projects/Dexilate/src/platform/include -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/engine/dexilate_engine_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/engine/CMakeFiles/dexilate_engine.dir/dexilate_engine_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/src/engine/dexilate_engine_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/engine/dexilate_engine_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/engine/CMakeFiles/dexilate_engine.dir/dexilate_engine_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/anderian/projects/Dexilate/src/ui/include -I/Users/anderian/projects/Dexilate/src/ui/src -I/Users/anderian/projects/Dexilate/src/engine/include -I/Users/anderian/projects/Dexilate/src/core/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -I/Users/anderian/projects/Dexilate/src/platform/include -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/ui/dexilate_ui_autogen/include -isystem /opt/homebrew/opt/qt/lib/QtCore.framework/Headers -iframework /opt/homebrew/opt/qt/lib -isystem /opt/homebrew/opt/qt/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/opt/qt/include -isystem /opt/homebrew/opt/qt/lib/QtGui.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtOpenGL.framework/Headers -isystem /opt/homebrew/opt/qt/lib/QtOpenGLWidgets.framework/Headers -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/ui/CMakeFiles/dexilate_ui.dir/dexilate_ui_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/src/ui/dexilate_ui_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/ui/dexilate_ui_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/ui/CMakeFiles/dexilate_ui.dir/dexilate_ui_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/app -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/app/dexilate_app_autogen/include -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-src/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/app/CMakeFiles/dexilate_app.dir/dexilate_app_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/src/app/dexilate_app_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/app/dexilate_app_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/app/CMakeFiles/dexilate_app.dir/dexilate_app_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/app -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/app/dexilate_app_autogen/include -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-src/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/app/CMakeFiles/dexilate_app.dir/main.cpp.o -c /Users/anderian/projects/Dexilate/src/app/main.cpp",
+  "file": "/Users/anderian/projects/Dexilate/src/app/main.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/app/CMakeFiles/dexilate_app.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/src/app -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/src/app/dexilate_app_autogen/include -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-src/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o src/app/CMakeFiles/dexilate_app.dir/GpuContext.cpp.o -c /Users/anderian/projects/Dexilate/src/app/GpuContext.cpp",
+  "file": "/Users/anderian/projects/Dexilate/src/app/GpuContext.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/src/app/CMakeFiles/dexilate_app.dir/GpuContext.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_input_event_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o tests/CMakeFiles/test_input_event.dir/test_input_event_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_input_event_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_input_event_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/tests/CMakeFiles/test_input_event.dir/test_input_event_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_input_event_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o tests/CMakeFiles/test_input_event.dir/platform/test_input_event.cpp.o -c /Users/anderian/projects/Dexilate/tests/platform/test_input_event.cpp",
+  "file": "/Users/anderian/projects/Dexilate/tests/platform/test_input_event.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/tests/CMakeFiles/test_input_event.dir/platform/test_input_event.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_window_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o tests/CMakeFiles/test_window.dir/test_window_autogen/mocs_compilation.cpp.o -c /Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_window_autogen/mocs_compilation.cpp",
+  "file": "/Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_window_autogen/mocs_compilation.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/tests/CMakeFiles/test_window.dir/test_window_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/anderian/projects/Dexilate/build/macos-arm64",
+  "command": "/usr/bin/c++ -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-src/src/catch2/.. -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/catch2-build/generated-includes -I/Users/anderian/projects/Dexilate/src/platform/include -I/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/glm-src -isystem /Users/anderian/projects/Dexilate/build/macos-arm64/tests/test_window_autogen/include -O2 -g -DNDEBUG -std=c++20 -arch arm64 -mmacosx-version-min=13.0 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O2 -g -o tests/CMakeFiles/test_window.dir/platform/test_window.cpp.o -c /Users/anderian/projects/Dexilate/tests/platform/test_window.cpp",
+  "file": "/Users/anderian/projects/Dexilate/tests/platform/test_window.cpp",
+  "output": "/Users/anderian/projects/Dexilate/build/macos-arm64/tests/CMakeFiles/test_window.dir/platform/test_window.cpp.o"
+}
+]

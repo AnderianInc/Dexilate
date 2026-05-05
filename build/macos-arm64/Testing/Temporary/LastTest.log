@@ -1,0 +1,264 @@
+Start testing: May 05 11:49 PDT
+----------------------------------------------------------
+13/13 Testing: IWindow — event callback fires on pollEvents
+13/13 Test: IWindow — event callback fires on pollEvents
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_window" "IWindow — event callback fires on pollEvents"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"IWindow — event callback fires on pollEvents" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "IWindow — event callback fires on pollEvents"
+Randomness seeded to: 516644013
+===============================================================================
+test cases: 1 | 1 passed
+assertions: - none -
+
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"IWindow — event callback fires on pollEvents" end time: May 05 11:49 PDT
+"IWindow — event callback fires on pollEvents" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/13 Testing: IWindow — resize callback
+10/13 Test: IWindow — resize callback
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_window" "IWindow — resize callback"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"IWindow — resize callback" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "IWindow — resize callback"
+Randomness seeded to: 2450710536
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"IWindow — resize callback" end time: May 05 11:49 PDT
+"IWindow — resize callback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/13 Testing: IWindow — set/get title
+11/13 Test: IWindow — set/get title
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_window" "IWindow — set/get title"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"IWindow — set/get title" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "IWindow — set/get title"
+Randomness seeded to: 2098737679
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"IWindow — set/get title" end time: May 05 11:49 PDT
+"IWindow — set/get title" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/13 Testing: MouseButton enum values
+3/13 Test: MouseButton enum values
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_input_event" "MouseButton enum values"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"MouseButton enum values" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "MouseButton enum values"
+Randomness seeded to: 3914042152
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MouseButton enum values" end time: May 05 11:49 PDT
+"MouseButton enum values" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/13 Testing: KeyCode — ASCII consistency
+2/13 Test: KeyCode — ASCII consistency
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_input_event" "KeyCode — ASCII consistency"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"KeyCode — ASCII consistency" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "KeyCode — ASCII consistency"
+Randomness seeded to: 2947070556
+===============================================================================
+All tests passed (14 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"KeyCode — ASCII consistency" end time: May 05 11:49 PDT
+"KeyCode — ASCII consistency" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/13 Testing: Modifiers — bitmask operations
+1/13 Test: Modifiers — bitmask operations
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_input_event" "Modifiers — bitmask operations"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"Modifiers — bitmask operations" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "Modifiers — bitmask operations"
+Randomness seeded to: 4172847041
+===============================================================================
+All tests passed (26 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Modifiers — bitmask operations" end time: May 05 11:49 PDT
+"Modifiers — bitmask operations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/13 Testing: TouchEvent capacity
+4/13 Test: TouchEvent capacity
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_input_event" "TouchEvent capacity"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"TouchEvent capacity" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "TouchEvent capacity"
+Randomness seeded to: 3667034108
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TouchEvent capacity" end time: May 05 11:49 PDT
+"TouchEvent capacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/13 Testing: Platform lifecycle
+7/13 Test: Platform lifecycle
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_window" "Platform lifecycle"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"Platform lifecycle" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "Platform lifecycle"
+Randomness seeded to: 2096314396
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Platform lifecycle" end time: May 05 11:49 PDT
+"Platform lifecycle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/13 Testing: IWindow — show / hide / close
+9/13 Test: IWindow — show / hide / close
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_window" "IWindow — show / hide / close"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"IWindow — show / hide / close" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "IWindow — show / hide / close"
+Randomness seeded to: 1436131716
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"IWindow — show / hide / close" end time: May 05 11:49 PDT
+"IWindow — show / hide / close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/13 Testing: InputEvent — std::visit dispatch
+6/13 Test: InputEvent — std::visit dispatch
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_input_event" "InputEvent — std::visit dispatch"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"InputEvent — std::visit dispatch" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "InputEvent — std::visit dispatch"
+Randomness seeded to: 751394087
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InputEvent — std::visit dispatch" end time: May 05 11:49 PDT
+"InputEvent — std::visit dispatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/13 Testing: InputEvent — variant holds all types
+5/13 Test: InputEvent — variant holds all types
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_input_event" "InputEvent — variant holds all types"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"InputEvent — variant holds all types" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "InputEvent — variant holds all types"
+Randomness seeded to: 1140198653
+===============================================================================
+All tests passed (20 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InputEvent — variant holds all types" end time: May 05 11:49 PDT
+"InputEvent — variant holds all types" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/13 Testing: IWindow — creation and dimensions
+8/13 Test: IWindow — creation and dimensions
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_window" "IWindow — creation and dimensions"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"IWindow — creation and dimensions" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "IWindow — creation and dimensions"
+Randomness seeded to: 3326016004
+===============================================================================
+All tests passed (16 assertions in 1 test case)
+
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"IWindow — creation and dimensions" end time: May 05 11:49 PDT
+"IWindow — creation and dimensions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/13 Testing: IWindow — present mode setter
+12/13 Test: IWindow — present mode setter
+Command: "/Users/anderian/projects/Dexilate/build/macos-arm64/bin/test_window" "IWindow — present mode setter"
+Directory: /Users/anderian/projects/Dexilate/build/macos-arm64/tests
+"IWindow — present mode setter" start time: May 05 11:49 PDT
+Output:
+----------------------------------------------------------
+Filters: "IWindow — present mode setter"
+Randomness seeded to: 4052429686
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"IWindow — present mode setter" end time: May 05 11:49 PDT
+"IWindow — present mode setter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 05 11:49 PDT

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/CMakeFiles/wgpu_native-populate"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/CMakeFiles/wgpu_native-populate.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/CMakeFiles/wgpu_native-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-build.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-download.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-install.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-test.rule"
+		},
+		{
+			"file" : "/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"wgpu_native-populate"
+		],
+		"name" : "wgpu_native-populate"
+	}
+}

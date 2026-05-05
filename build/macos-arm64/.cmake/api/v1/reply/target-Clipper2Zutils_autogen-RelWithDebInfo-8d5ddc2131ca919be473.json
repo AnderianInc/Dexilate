@@ -1,0 +1,92 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build/macos-arm64/_deps/clipper2-src/CPP/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Clipper2Zutils_autogen_timestamp_deps::@2f2a1948a895f7482ae0"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "Clipper2Zutils_autogen::@2f2a1948a895f7482ae0",
+	"isGeneratorProvided" : true,
+	"name" : "Clipper2Zutils_autogen",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Clipper2Zutils_autogen_timestamp_deps::@2f2a1948a895f7482ae0"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/clipper2-build",
+		"source" : "build/macos-arm64/_deps/clipper2-src/CPP"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Zutils_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/macos-arm64/_deps/clipper2-build/CMakeFiles/Clipper2Zutils_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/macos-arm64/_deps/clipper2-build/Clipper2Zutils_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

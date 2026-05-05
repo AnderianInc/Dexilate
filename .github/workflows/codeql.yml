@@ -1,0 +1,81 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  .github/workflows/codeql.yml
+#  CodeQL static analysis — runs on push/PR and weekly on main.
+#
+#  Critical for Dexilate because:
+#    - PSD/SVG parsers process untrusted binary/text data
+#    - GPU memory management has complex lifetime requirements
+#    - Plugin API exposes C ABI to third-party code
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: CodeQL
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+  schedule:
+    # Weekly scan on Sunday at 03:00 UTC
+    - cron: "0 3 * * 0"
+
+jobs:
+  analyze:
+    name: CodeQL Analysis (C++)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+
+    permissions:
+      actions:       read
+      contents:      read
+      security-events: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y ninja-build libgl1-mesa-dev libglib2.0-dev \
+            libfontconfig1-dev libfreetype6-dev libx11-dev libxcb1-dev \
+            libxkbcommon-dev libwayland-dev pkg-config
+
+      - name: Cache Qt
+        id: cache-qt
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/qt6
+          key: qt-6.7.2-gcc_64-codeql
+
+      - name: Install Qt6
+        if: steps.cache-qt.outputs.cache-hit != 'true'
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: "6.7.2"
+          arch:    gcc_64
+          dir:     ${{ github.workspace }}/qt6
+          cache:   true
+
+      - name: Set Qt6_DIR
+        run: |
+          echo "Qt6_DIR=${{ github.workspace }}/qt6/Qt/6.7.2/gcc_64/lib/cmake/Qt6" >> $GITHUB_ENV
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: c-cpp
+          queries: security-and-quality
+
+      - name: Configure (CodeQL intercepts the build)
+        run: cmake --preset linux-x64 -DCMAKE_PREFIX_PATH="${Qt6_DIR}"
+
+      - name: Build
+        run: cmake --build build/linux-x64 --parallel
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:c-cpp"

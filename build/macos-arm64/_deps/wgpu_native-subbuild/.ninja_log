@@ -1,0 +1,21 @@
+# ninja log v7
+0	14	1777951759057793471	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-mkdir	c277052da2935925
+0	14	1777951759057793471	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-mkdir	c277052da2935925
+14	1707	1777951760751256394	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-download	e3ec9161bd90ee9d
+14	1707	1777951760751256394	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-download	e3ec9161bd90ee9d
+1707	1719	1777951760762886398	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-update	c9dc38b812c63a7
+1707	1719	1777951760762886398	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-update	c9dc38b812c63a7
+1719	1730	1777951760774464402	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-patch	70a90d4dff39151c
+1719	1730	1777951760774464402	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-patch	70a90d4dff39151c
+1731	1742	1777951760785502611	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-configure	9867ba8eaa363ca0
+1731	1742	1777951760785502611	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-configure	9867ba8eaa363ca0
+1742	1753	1777951760797202032	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-build	6b341ad4a99ba9f4
+1742	1753	1777951760797202032	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-build	6b341ad4a99ba9f4
+1753	1764	1777951760808213242	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-install	92ce7754f2764645
+1753	1764	1777951760808213242	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-install	92ce7754f2764645
+1764	1775	1777951760819277452	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-test	7947cc4817ebc85b
+1764	1775	1777951760819277452	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-test	7947cc4817ebc85b
+1775	1791	1777951760834816846	CMakeFiles/wgpu_native-populate-complete	d0dbde2f5c65454c
+1775	1791	1777951760834816846	wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-done	d0dbde2f5c65454c
+1775	1791	1777951760834816846	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/CMakeFiles/wgpu_native-populate-complete	d0dbde2f5c65454c
+1775	1791	1777951760834816846	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/wgpu_native-populate-done	d0dbde2f5c65454c

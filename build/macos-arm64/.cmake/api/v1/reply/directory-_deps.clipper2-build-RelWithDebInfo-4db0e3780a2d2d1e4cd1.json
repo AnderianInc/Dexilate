@@ -1,0 +1,113 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/macos-arm64/_deps/clipper2-src/CPP/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libClipper2.a"
+			],
+			"targetId" : "Clipper2::@2f2a1948a895f7482ae0",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/clipper2",
+			"paths" : 
+			[
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.version.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.core.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.engine.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.export.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.minkowski.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.offset.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.rectclip.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libClipper2Z.a"
+			],
+			"targetId" : "Clipper2Z::@2f2a1948a895f7482ae0",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/clipper2",
+			"paths" : 
+			[
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.version.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.core.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.engine.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.export.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.minkowski.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.offset.h",
+				"build/macos-arm64/_deps/clipper2-src/CPP/Clipper2Lib/include/clipper2/clipper.rectclip.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/macos-arm64/_deps/clipper2-build/Clipper2.pc",
+				"build/macos-arm64/_deps/clipper2-build/Clipper2Z.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/clipper2-build",
+		"source" : "build/macos-arm64/_deps/clipper2-src/CPP"
+	}
+}

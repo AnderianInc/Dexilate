@@ -1,0 +1,16 @@
+Clipper2utils_autogen/timestamp: \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/CMakeLists.txt \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Clipper2.pc.cmakein \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileLoad.cpp \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileLoad.h \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileSave.cpp \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/ClipFileSave.h \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/Colors.h \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/CommonUtils.h \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/Timer.h \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/clipper.svg.cpp \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/Utils/clipper.svg.h \
+	/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/clipper2-src/CPP/clipper.version.in \
+	/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake \
+	/opt/homebrew/share/cmake/Modules/GoogleTest.cmake \
+	/opt/homebrew/bin/cmake

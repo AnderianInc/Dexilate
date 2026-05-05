@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/download-wgpu_native-populate.cmake;COMMAND;/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/verify-wgpu_native-populate.cmake;COMMAND;/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-subbuild/wgpu_native-populate-prefix/src/wgpu_native-populate-stamp/extract-wgpu_native-populate.cmake
+source_dir=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps/wgpu_native-src
+work_dir=/Users/anderian/projects/Dexilate/build/macos-arm64/_deps
+url(s)=https://github.com/gfx-rs/wgpu-native/releases/download/v29.0.0.0/wgpu-macos-aarch64-release.zip
+hash=
+      no_extract=
+

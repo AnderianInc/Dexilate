@@ -1,0 +1,6 @@
+dexilate_app_autogen/timestamp: \
+	/Users/anderian/projects/Dexilate/src/app/CMakeLists.txt \
+	/Users/anderian/projects/Dexilate/src/app/GpuContext.cpp \
+	/Users/anderian/projects/Dexilate/src/app/GpuContext.h \
+	/Users/anderian/projects/Dexilate/src/app/main.cpp \
+	/opt/homebrew/bin/cmake
