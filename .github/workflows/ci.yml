@@ -74,16 +74,8 @@ jobs:
         with:
           arch: x64
 
-      - name: Cache Qt (macOS / Windows)
-        id: cache-qt
-        if: runner.os != 'Linux'
-        uses: actions/cache@v4
-        with:
-          path: ${{ github.workspace }}/qt6
-          key: qt-${{ env.QT_VERSION }}-${{ matrix.qt_arch }}-${{ runner.os }}
-
       - name: Install Qt6 (macOS / Windows via aqt)
-        if: steps.cache-qt.outputs.cache-hit != 'true' && runner.os != 'Linux'
+        if: runner.os != 'Linux'
         uses: jurplel/install-qt-action@v4
         with:
           version: ${{ env.QT_VERSION }}
@@ -101,6 +93,8 @@ jobs:
         run: |
           if [ "${{ runner.os }}" = "Linux" ]; then
             echo "Qt6_DIR=/usr/lib/x86_64-linux-gnu/cmake/Qt6" >> $GITHUB_ENV
+          elif [ -n "${QT_ROOT_DIR:-}" ]; then
+            echo "Qt6_DIR=${QT_ROOT_DIR}/lib/cmake/Qt6" >> $GITHUB_ENV
           else
             echo "Qt6_DIR=${{ github.workspace }}/qt6/Qt/${{ env.QT_VERSION }}/${{ matrix.qt_arch }}/lib/cmake/Qt6" >> $GITHUB_ENV
           fi

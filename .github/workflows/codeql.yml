@@ -41,27 +41,12 @@ jobs:
           sudo apt-get update -q
           sudo apt-get install -y ninja-build libgl1-mesa-dev libglib2.0-dev \
             libfontconfig1-dev libfreetype6-dev libx11-dev libxcb1-dev \
-            libxkbcommon-dev libwayland-dev pkg-config
-
-      - name: Cache Qt
-        id: cache-qt
-        uses: actions/cache@v4
-        with:
-          path: ${{ github.workspace }}/qt6
-          key: qt-6.7.2-gcc_64-codeql
-
-      - name: Install Qt6
-        if: steps.cache-qt.outputs.cache-hit != 'true'
-        uses: jurplel/install-qt-action@v4
-        with:
-          version: "6.7.2"
-          arch:    gcc_64
-          dir:     ${{ github.workspace }}/qt6
-          cache:   true
+            libxkbcommon-dev libwayland-dev pkg-config \
+            qt6-base-dev libqt6opengl6-dev
 
       - name: Set Qt6_DIR
         run: |
-          echo "Qt6_DIR=${{ github.workspace }}/qt6/Qt/6.7.2/gcc_64/lib/cmake/Qt6" >> $GITHUB_ENV
+          echo "Qt6_DIR=/usr/lib/x86_64-linux-gnu/cmake/Qt6" >> $GITHUB_ENV
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3

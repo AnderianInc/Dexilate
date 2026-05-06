@@ -160,8 +160,12 @@ find_package(Qt6 6.4 REQUIRED COMPONENTS
     OpenGL       # For GPU surface hosting
     OpenGLWidgets
 )
-qt_standard_project_setup()
 message(STATUS "[Dexilate] Qt6 found: ${Qt6_VERSION} at ${Qt6_DIR}")
+# qt_standard_project_setup() intentionally NOT called here. Calling it in the
+# root scope sets CMAKE_WIN32_EXECUTABLE=TRUE globally, which breaks Catch2 test
+# entry points on Windows (tests expect main(), not WinMain()). It also enables
+# CMAKE_AUTOMOC project-wide, adding unnecessary MOC overhead to non-Qt targets.
+# Each Qt-using subdirectory calls qt_standard_project_setup() in its own scope.
 
 # ── Catch2 (test framework) ───────────────────────────────────────────────────
 FetchContent_Declare(Catch2
@@ -188,7 +192,7 @@ FetchContent_MakeAvailable(Clipper2)
 foreach(_tgt IN ITEMS Clipper2 Clipper2Z)
     if(TARGET ${_tgt})
         target_compile_options(${_tgt} PRIVATE
-            $<$<CXX_COMPILER_ID:GNU,Clang,AppleClang>:-Wno-error=template-id-cdtor>)
+            $<$<CXX_COMPILER_ID:GNU,Clang,AppleClang>:-Wno-error>)
     endif()
 endforeach()
 
