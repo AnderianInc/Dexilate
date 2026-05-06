@@ -40,7 +40,7 @@ TEST_CASE("Platform lifecycle", "[platform]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("IWindow — creation and dimensions", "[window]") {
+TEST_CASE("IWindow - creation and dimensions", "[window]") {
     Platform::init();
 
     WindowDesc desc;
@@ -63,8 +63,15 @@ TEST_CASE("IWindow — creation and dimensions", "[window]") {
         CHECK(win->height() == 600u);
     }
     SECTION("physical dimensions are >= logical dimensions") {
-        CHECK(win->physicalWidth()  >= win->width());
-        CHECK(win->physicalHeight() >= win->height());
+        // Only holds when DPR >= 1.0; sub-96-DPI displays (e.g. Xvfb at 75 DPI)
+        // produce DPR < 1.0 where physical < logical by design.
+        if (win->devicePixelRatio() >= 1.0f) {
+            CHECK(win->physicalWidth()  >= win->width());
+            CHECK(win->physicalHeight() >= win->height());
+        } else {
+            CHECK(win->physicalWidth()  > 0u);
+            CHECK(win->physicalHeight() > 0u);
+        }
     }
     SECTION("devicePixelRatio is positive") {
         CHECK(win->devicePixelRatio() > 0.0f);
@@ -86,7 +93,7 @@ TEST_CASE("IWindow — creation and dimensions", "[window]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("IWindow — show / hide / close", "[window]") {
+TEST_CASE("IWindow - show / hide / close", "[window]") {
     Platform::init();
 
     std::unique_ptr<IWindow> win;
@@ -115,7 +122,7 @@ TEST_CASE("IWindow — show / hide / close", "[window]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("IWindow — resize callback", "[window]") {
+TEST_CASE("IWindow - resize callback", "[window]") {
     Platform::init();
 
     std::unique_ptr<IWindow> win;
@@ -146,7 +153,7 @@ TEST_CASE("IWindow — resize callback", "[window]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("IWindow — set/get title", "[window]") {
+TEST_CASE("IWindow - set/get title", "[window]") {
     Platform::init();
 
     std::unique_ptr<IWindow> win;
@@ -166,7 +173,7 @@ TEST_CASE("IWindow — set/get title", "[window]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("IWindow — present mode setter", "[window]") {
+TEST_CASE("IWindow - present mode setter", "[window]") {
     Platform::init();
 
     std::unique_ptr<IWindow> win;
@@ -189,7 +196,7 @@ TEST_CASE("IWindow — present mode setter", "[window]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("IWindow — event callback fires on pollEvents", "[window]") {
+TEST_CASE("IWindow - event callback fires on pollEvents", "[window]") {
     Platform::init();
 
     std::unique_ptr<IWindow> win;
