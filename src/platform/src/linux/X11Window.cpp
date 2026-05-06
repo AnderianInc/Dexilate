@@ -40,6 +40,11 @@
 #include <X11/Xutil.h>
 #include <X11/keysym.h>
 #include <X11/XKBlib.h>    // XkbKeycodeToKeysym
+#include <X11/Xresource.h> // XrmDatabase, XrmGetResource
+// X11/Xlib.h defines None as 0L — conflicts with Modifiers::None enum.
+#ifdef None
+#  undef None
+#endif
 
 #include <atomic>
 #include <cstring>
@@ -441,7 +446,7 @@ private:
         // ── Keyboard ───────────────────────────────────────────────────────
         case KeyPress: {
             KeySym ks = XkbKeycodeToKeysym(_dpy,
-                static_cast<KeyCode_t>(ev.xkey.keycode), 0, 0);
+                static_cast<unsigned char>(ev.xkey.keycode), 0, 0);
             if (_eventCb) _eventCb(KeyEvent{
                 ksToKeyCode(ks),
                 static_cast<uint32_t>(ev.xkey.keycode),
@@ -474,7 +479,7 @@ private:
         }
         case KeyRelease: {
             KeySym ks = XkbKeycodeToKeysym(_dpy,
-                static_cast<KeyCode_t>(ev.xkey.keycode), 0, 0);
+                static_cast<unsigned char>(ev.xkey.keycode), 0, 0);
             if (_eventCb) _eventCb(KeyEvent{
                 ksToKeyCode(ks),
                 static_cast<uint32_t>(ev.xkey.keycode),

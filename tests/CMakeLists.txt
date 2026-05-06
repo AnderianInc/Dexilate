@@ -14,12 +14,14 @@ include(Catch2Config)
 
 # Helper: add_dexilate_test(name sources...)
 # Creates a Catch2 test executable and registers it with CTest.
+set(DEXILATE_TEST_MAIN ${CMAKE_CURRENT_SOURCE_DIR}/test_main.cpp)
+
 function(add_dexilate_test name)
-    add_executable(${name} ${ARGN})
+    add_executable(${name} ${DEXILATE_TEST_MAIN} ${ARGN})
     target_compile_features(${name} PRIVATE cxx_std_20)
     target_link_libraries(${name}
         PRIVATE
-            Catch2::Catch2WithMain
+            Catch2::Catch2
             dexilate::platform
     )
     catch_discover_tests(${name})
