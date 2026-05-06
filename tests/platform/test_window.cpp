@@ -63,8 +63,15 @@ TEST_CASE("IWindow - creation and dimensions", "[window]") {
         CHECK(win->height() == 600u);
     }
     SECTION("physical dimensions are >= logical dimensions") {
-        CHECK(win->physicalWidth()  >= win->width());
-        CHECK(win->physicalHeight() >= win->height());
+        // Only holds when DPR >= 1.0; sub-96-DPI displays (e.g. Xvfb at 75 DPI)
+        // produce DPR < 1.0 where physical < logical by design.
+        if (win->devicePixelRatio() >= 1.0f) {
+            CHECK(win->physicalWidth()  >= win->width());
+            CHECK(win->physicalHeight() >= win->height());
+        } else {
+            CHECK(win->physicalWidth()  > 0u);
+            CHECK(win->physicalHeight() > 0u);
+        }
     }
     SECTION("devicePixelRatio is positive") {
         CHECK(win->devicePixelRatio() > 0.0f);

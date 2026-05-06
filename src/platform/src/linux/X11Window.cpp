@@ -273,7 +273,7 @@ public:
         ev.xclient.format       = 32;
         ev.xclient.data.l[0]    = static_cast<long>(_wmDeleteWindow);
         XSendEvent(_dpy, _win, False, NoEventMask, &ev);
-        XFlush(_dpy);
+        XSync(_dpy, False);  // wait for the server to deliver the event back
     }
 
     void pollEvents() override {

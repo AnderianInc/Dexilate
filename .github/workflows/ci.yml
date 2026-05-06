@@ -121,7 +121,7 @@ jobs:
         working-directory: build/${{ matrix.preset }}
         run: |
           # Start Xvfb on a fixed display number so we can set X resources.
-          Xvfb :99 -screen 0 1280x1024x24 &
+          Xvfb :99 -screen 0 1280x1024x24 2>/dev/null &
           XVFB_PID=$!
           export DISPLAY=:99
           # Wait for the server to accept connections (typically < 200 ms).
