@@ -24,7 +24,10 @@ function(add_dexilate_test name)
             Catch2::Catch2
             dexilate::platform
     )
-    catch_discover_tests(${name})
+    # SKIP_RETURN_CODE 4: Catch2 exits with 4 when all test cases are skipped
+    # (SKIP() called before any assertions — e.g. headless CI with no display).
+    # CTest treats exit code 4 as "Not Run" rather than "Failed".
+    catch_discover_tests(${name} PROPERTIES SKIP_RETURN_CODE 4)
 endfunction()
 
 # ── Phase 0 tests ─────────────────────────────────────────────────────────────

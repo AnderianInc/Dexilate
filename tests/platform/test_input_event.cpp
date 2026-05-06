@@ -18,7 +18,7 @@
 using namespace dexilate::platform;
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("Modifiers — bitmask operations", "[input][modifiers]") {
+TEST_CASE("Modifiers - bitmask operations", "[input][modifiers]") {
     SECTION("None has zero value") {
         CHECK(static_cast<uint32_t>(Modifiers::None) == 0u);
     }
@@ -68,7 +68,7 @@ TEST_CASE("Modifiers — bitmask operations", "[input][modifiers]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("KeyCode — ASCII consistency", "[input][keycode]") {
+TEST_CASE("KeyCode - ASCII consistency", "[input][keycode]") {
     SECTION("Letters match ASCII upper-case values") {
         CHECK(static_cast<uint32_t>(KeyCode::A) == 65u);
         CHECK(static_cast<uint32_t>(KeyCode::Z) == 90u);
@@ -115,7 +115,7 @@ TEST_CASE("TouchEvent capacity", "[input][touch]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("InputEvent — variant holds all types", "[input][variant]") {
+TEST_CASE("InputEvent - variant holds all types", "[input][variant]") {
     // Verify each event type can be placed in the variant and held correctly
     InputEvent ev;
 
@@ -157,7 +157,7 @@ TEST_CASE("InputEvent — variant holds all types", "[input][variant]") {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-TEST_CASE("InputEvent — std::visit dispatch", "[input][variant]") {
+TEST_CASE("InputEvent - std::visit dispatch", "[input][variant]") {
     InputEvent ev = KeyEvent{KeyCode::Z, 44u, true, true, Modifiers::Meta};
 
     bool dispatched = false;
