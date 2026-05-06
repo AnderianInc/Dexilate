@@ -59,7 +59,7 @@ jobs:
           sudo apt-get install -y ninja-build libgl1-mesa-dev libglib2.0-dev \
             libfontconfig1-dev libfreetype6-dev libx11-dev libxcb1-dev \
             libxkbcommon-dev libwayland-dev pkg-config \
-            xvfb
+            xvfb x11-xserver-utils
 
       - name: Install system dependencies (macOS)
         if: runner.os == 'macOS'
@@ -119,7 +119,23 @@ jobs:
         if: runner.os == 'Linux'
         shell: bash
         working-directory: build/${{ matrix.preset }}
-        run: xvfb-run -a ctest --output-on-failure --parallel 4 --timeout 120
+        run: |
+          # Start Xvfb on a fixed display number so we can set X resources.
+          Xvfb :99 -screen 0 1280x1024x24 &
+          XVFB_PID=$!
+          export DISPLAY=:99
+          # Wait for the server to accept connections (typically < 200 ms).
+          for i in $(seq 1 20); do
+            xrdb -query >/dev/null 2>&1 && break
+            sleep 0.1
+          done
+          # Pin Xft.dpi to 96 so detectDpr() returns exactly 1.0 and window
+          # tests asserting logical == requested dimensions pass reliably.
+          echo "Xft.dpi: 96" | xrdb -merge
+          ctest --output-on-failure --parallel 4 --timeout 120
+          CTEST_EXIT=$?
+          kill $XVFB_PID 2>/dev/null || true
+          exit $CTEST_EXIT
 
       - name: Test (macOS / Windows)
         if: runner.os != 'Linux'

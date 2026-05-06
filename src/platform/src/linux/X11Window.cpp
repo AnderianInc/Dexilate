@@ -47,6 +47,7 @@
 #endif
 
 #include <atomic>
+#include <cmath>
 #include <cstring>
 #include <stdexcept>
 #include <string>
@@ -195,6 +196,14 @@ public:
         int depth = DefaultDepth(_dpy, _screen);
         Visual* vis = DefaultVisual(_dpy, _screen);
 
+        // desc.width/height are LOGICAL (CSS) pixels per IWindow contract.
+        // Compute physical pixels = logical × DPR for the actual X11 window.
+        _dpr      = detectDpr();
+        _logicalW = desc.width;
+        _logicalH = desc.height;
+        _physW    = static_cast<uint32_t>(std::round(static_cast<float>(desc.width)  * _dpr));
+        _physH    = static_cast<uint32_t>(std::round(static_cast<float>(desc.height) * _dpr));
+
         XSetWindowAttributes attr = {};
         attr.background_pixel = BlackPixel(_dpy, _screen);
         attr.event_mask =
@@ -206,7 +215,7 @@ public:
 
         _win = XCreateWindow(
             _dpy, RootWindow(_dpy, _screen),
-            0, 0, desc.width, desc.height,
+            0, 0, _physW, _physH,
             0, depth, InputOutput, vis,
             CWBackPixel | CWEventMask, &attr
         );
@@ -225,16 +234,10 @@ public:
         if (!desc.resizable) {
             XSizeHints hints = {};
             hints.flags      = PMinSize | PMaxSize;
-            hints.min_width  = hints.max_width  = static_cast<int>(desc.width);
-            hints.min_height = hints.max_height = static_cast<int>(desc.height);
+            hints.min_width  = hints.max_width  = static_cast<int>(_physW);
+            hints.min_height = hints.max_height = static_cast<int>(_physH);
             XSetWMNormalHints(_dpy, _win, &hints);
         }
-
-        _physW    = desc.width;
-        _physH    = desc.height;
-        _dpr      = detectDpr();
-        _logicalW = static_cast<uint32_t>(_physW / _dpr);
-        _logicalH = static_cast<uint32_t>(_physH / _dpr);
 
         _winAtomic.store(reinterpret_cast<void*>(_win), std::memory_order_release);
         _dpyAtomic.store(_dpy, std::memory_order_release);
