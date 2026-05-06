@@ -11,24 +11,22 @@
 #  Phase 5+: GPU filter pipeline
 # ─────────────────────────────────────────────────────────────────────────────
 
-add_library(dexilate_engine STATIC)
+add_library(dexilate_engine INTERFACE)
 add_library(dexilate::engine ALIAS dexilate_engine)
 
 target_include_directories(dexilate_engine
-    PUBLIC
+    INTERFACE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
-    PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
-target_compile_features(dexilate_engine PUBLIC cxx_std_20)
+target_compile_features(dexilate_engine INTERFACE cxx_std_20)
 
 target_link_libraries(dexilate_engine
-    PUBLIC
+    INTERFACE
         dexilate::core
         dexilate::platform
         glm::glm
 )
 
-# Sources added incrementally per phase — stub is intentionally empty.
+# Phase 0 stub — no sources yet. Promote to STATIC when Phase 1 adds files.

@@ -10,21 +10,19 @@
 #  Phase 4+: ColorProfilePanel
 # ─────────────────────────────────────────────────────────────────────────────
 
-add_library(dexilate_ui STATIC)
+add_library(dexilate_ui INTERFACE)
 add_library(dexilate::ui ALIAS dexilate_ui)
 
 target_include_directories(dexilate_ui
-    PUBLIC
+    INTERFACE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
-    PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
-target_compile_features(dexilate_ui PUBLIC cxx_std_20)
+target_compile_features(dexilate_ui INTERFACE cxx_std_20)
 
 target_link_libraries(dexilate_ui
-    PUBLIC
+    INTERFACE
         dexilate::engine
         Qt6::Core
         Qt6::Gui
@@ -33,4 +31,4 @@ target_link_libraries(dexilate_ui
         Qt6::OpenGLWidgets
 )
 
-# Sources added incrementally per phase — stub is intentionally empty.
+# Phase 0 stub — no sources yet. Promote to STATIC when Phase 1 adds files.

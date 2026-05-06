@@ -9,19 +9,17 @@
 #  Phase 4+: color management (LittleCMS 2)
 # ─────────────────────────────────────────────────────────────────────────────
 
-add_library(dexilate_core STATIC)
+add_library(dexilate_core INTERFACE)
 add_library(dexilate::core ALIAS dexilate_core)
 
 target_include_directories(dexilate_core
-    PUBLIC
+    INTERFACE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
-    PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
-target_compile_features(dexilate_core PUBLIC cxx_std_20)
+target_compile_features(dexilate_core INTERFACE cxx_std_20)
 
-target_link_libraries(dexilate_core PUBLIC glm::glm)
+target_link_libraries(dexilate_core INTERFACE glm::glm)
 
-# Sources added incrementally per phase — stub is intentionally empty.
+# Phase 0 stub — no sources yet. Promote to STATIC when Phase 1 adds files.
