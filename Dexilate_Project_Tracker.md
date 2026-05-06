@@ -181,8 +181,8 @@ The project is divided into six sequential phases. Each phase has a defined entr
 
 | **Phase**   | **Description**                                                                     | **Duration** | **Status**      | **Owner**        |
 | ----------- | ----------------------------------------------------------------------------------- | ------------ | --------------- | ---------------- |
-| **Phase 0** | Toolchain, CI/CD, and 'Hello Dexilate' - a GPU-rendered window on all three platforms | 2 weeks      | **Not Started** | Engineering Lead |
-| **Phase 1** | Raster core: single layer, brush tool, eraser, zoom/pan, PNG open/save              | 8 weeks      | **Not Started** | Raster Team      |
+| **Phase 0** | Toolchain, CI/CD, and 'Hello Dexilate' - a GPU-rendered window on all three platforms | 2 weeks      | **Complete**    | Engineering Lead |
+| **Phase 1** | Raster core: single layer, brush tool, eraser, zoom/pan, PNG open/save              | 8 weeks      | **In Progress** | Raster Team      |
 | **Phase 2** | Layer system: blend modes, opacity, groups, adjustment layers, history/undo         | 10 weeks     | **Not Started** | Raster Team      |
 | **Phase 3** | Vector engine: pen tool, shape tools, boolean ops, text, SVG import/export          | 12 weeks     | **Not Started** | Vector Team      |
 | **Phase 4** | Unified document: mixed raster+vector, PSD import, PDF export, smart objects        | 10 weeks     | **Not Started** | Full Team        |
@@ -258,7 +258,7 @@ The project is divided into six sequential phases. Each phase has a defined entr
 
 | **Milestone**               | **Target Date** | **Deliverable**                                                    | **Status**      |
 | --------------------------- | --------------- | ------------------------------------------------------------------ | --------------- |
-| **M0 - Hello Dexilate**       | Week 2          | GPU-rendered window opens on macOS, Windows, Linux from CI build   | **Not Started** |
+| **M0 - Hello Dexilate**       | Week 2          | GPU-rendered window opens on macOS, Windows, Linux from CI build   | **Complete**    |
 | **M1 - First Brush Stroke** | Week 6          | Open PNG, paint with pressure-sensitive brush, save PNG            | **Not Started** |
 | **M2 - Layer Alpha**        | Week 10         | Multi-layer document with GPU-composited blend modes and undo/redo | **Not Started** |
 | **M3 - Vector Alpha**       | Week 20         | Pen tool, shape tools, boolean ops, stroke/fill, SVG round-trip    | **Not Started** |
@@ -432,12 +432,12 @@ These blockers exist in the current committed files and must be resolved before 
 - [x] `tests/platform/test_window.cpp` — Catch2 integration tests for `IWindow` lifecycle; `SKIP` guards for headless CI
 - [x] `tests/platform/test_input_event.cpp` — headless unit tests: `Modifiers` bitmask, `KeyCode` ASCII values, `InputEvent` variant + `std::visit`
 - [x] Wire `tests/` into CMake — `add_dexilate_test` helper; `catch_discover_tests` CTest registration
-- [ ] CI: confirm CTest runs and reports pass/fail per platform
+- [x] CI: confirm CTest runs and reports pass/fail per platform
 
 ### Milestone Gate: M0
-- [ ] White canvas window opens on macOS, Windows, and Linux from a single CI build artifact
-- [ ] All Catch2 PAL tests pass on all three runners
-- [ ] CI is fully green (build + test + SPDX check + artifact upload)
+- [x] White canvas window opens on macOS, Windows, and Linux from a single CI build artifact
+- [x] All Catch2 PAL tests pass on all three runners
+- [x] CI is fully green (build + test + SPDX check + artifact upload)
 
 ---
 
