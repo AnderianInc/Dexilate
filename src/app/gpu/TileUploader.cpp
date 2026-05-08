@@ -62,13 +62,13 @@ void TileUploader::uploadDirtyTiles(engine::RasterLayer& layer) {
         uint32_t copyW   = std::min(static_cast<uint32_t>(ts), _width  - originX);
         uint32_t copyH   = std::min(static_cast<uint32_t>(ts), _height - originY);
 
-        WGPUImageCopyTexture dst = {};
+        WGPUTexelCopyTextureInfo dst = {};
         dst.texture  = _texture;
         dst.mipLevel = 0;
         dst.origin   = { originX, originY, 0 };
         dst.aspect   = WGPUTextureAspect_All;
 
-        WGPUTextureDataLayout layout = {};
+        WGPUTexelCopyBufferLayout layout = {};
         layout.offset       = 0;
         layout.bytesPerRow  = static_cast<uint32_t>(ts) * 4;
         layout.rowsPerImage = static_cast<uint32_t>(ts);

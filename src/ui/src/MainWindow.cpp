@@ -42,20 +42,20 @@ MainWindow::MainWindow(QWidget* parent)
 
     // ── Menus ─────────────────────────────────────────────────────────────────
     QMenu* fileMenu = menuBar()->addMenu("&File");
-    auto* actNew    = fileMenu->addAction("&New",     this, &MainWindow::onNew,    QKeySequence::New);
-    auto* actOpen   = fileMenu->addAction("&Open...", this, &MainWindow::onOpen,   QKeySequence::Open);
+    auto* actNew    = fileMenu->addAction("&New",        QKeySequence::New,       this, &MainWindow::onNew);
+    auto* actOpen   = fileMenu->addAction("&Open...",    QKeySequence::Open,      this, &MainWindow::onOpen);
     fileMenu->addSeparator();
-    auto* actSave   = fileMenu->addAction("&Save",    this, &MainWindow::onSave,   QKeySequence::Save);
-    auto* actSaveAs = fileMenu->addAction("Save &As...", this, &MainWindow::onSaveAs,
-                                          QKeySequence(Qt::CTRL | Qt::SHIFT | Qt::Key_S));
+    auto* actSave   = fileMenu->addAction("&Save",       QKeySequence::Save,      this, &MainWindow::onSave);
+    auto* actSaveAs = fileMenu->addAction("Save &As...", QKeySequence(Qt::CTRL | Qt::SHIFT | Qt::Key_S),
+                                          this, &MainWindow::onSaveAs);
     fileMenu->addSeparator();
-    fileMenu->addAction("&Quit", this, &QWidget::close, QKeySequence::Quit);
+    fileMenu->addAction("&Quit", QKeySequence::Quit, this, &QWidget::close);
     (void)actNew; (void)actOpen; (void)actSave; (void)actSaveAs;
 
     QMenu* viewMenu = menuBar()->addMenu("&View");
-    viewMenu->addAction("Zoom &In",       this, &MainWindow::onZoomIn,    QKeySequence(Qt::CTRL | Qt::Key_Equal));
-    viewMenu->addAction("Zoom &Out",      this, &MainWindow::onZoomOut,   QKeySequence(Qt::CTRL | Qt::Key_Minus));
-    viewMenu->addAction("&Fit to Window", this, &MainWindow::onFitWindow, QKeySequence(Qt::CTRL | Qt::Key_0));
+    viewMenu->addAction("Zoom &In",       QKeySequence(Qt::CTRL | Qt::Key_Equal), this, &MainWindow::onZoomIn);
+    viewMenu->addAction("Zoom &Out",      QKeySequence(Qt::CTRL | Qt::Key_Minus), this, &MainWindow::onZoomOut);
+    viewMenu->addAction("&Fit to Window", QKeySequence(Qt::CTRL | Qt::Key_0),     this, &MainWindow::onFitWindow);
 }
 
 void MainWindow::setDocument(std::unique_ptr<engine::Document> doc) {

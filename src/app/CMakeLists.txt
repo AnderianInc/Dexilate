@@ -16,13 +16,9 @@ set(_app_sources
     gpu/TileUploader.cpp
 )
 
-if(APPLE)
-    add_executable(dexilate_app MACOSX_BUNDLE ${_app_sources})
-elseif(WIN32)
-    add_executable(dexilate_app WIN32 ${_app_sources})
-else()
-    add_executable(dexilate_app ${_app_sources})
-endif()
+# qt_add_executable sets WIN32/MACOSX_BUNDLE per-platform and links
+# Qt6::EntryPoint on Windows (needed so that WinMain → main() works).
+qt_add_executable(dexilate_app ${_app_sources})
 
 set_target_properties(dexilate_app PROPERTIES OUTPUT_NAME "dexilate")
 

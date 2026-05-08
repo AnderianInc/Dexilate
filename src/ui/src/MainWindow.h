@@ -4,11 +4,11 @@
 
 #pragma once
 
+#include "dexilate/engine/document/Document.h"
+
 #include <QMainWindow>
 #include <memory>
 #include <filesystem>
-
-namespace dexilate::engine { class Document; }
 
 namespace dexilate::ui {
 
