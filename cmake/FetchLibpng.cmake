@@ -41,6 +41,9 @@ set(PNG_SHARED OFF CACHE BOOL "" FORCE)
 set(PNG_STATIC ON  CACHE BOOL "" FORCE)
 set(PNG_TESTS  OFF CACHE BOOL "" FORCE)
 set(PNG_TOOLS  OFF CACHE BOOL "" FORCE)
+# Suppress all install() rules in libpng so it doesn't create an export set
+# that references zlibstatic (our non-exported FetchContent target).
+set(SKIP_INSTALL_ALL ON CACHE BOOL "" FORCE)
 
 FetchContent_Declare(_dex_png
     GIT_REPOSITORY https://github.com/glennrp/libpng.git
