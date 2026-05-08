@@ -2,24 +2,32 @@
 #  src/core/CMakeLists.txt
 #  dexilate_core — Layer 3 Core Library
 #
-#  Stateless C++ modules: color management, image codecs, text shaping,
-#  and math utilities. No OS API calls — depends only on third-party libs.
-#  Phase 1+: codecs (libpng, libjpeg-turbo, libtiff, libwebp, libavif, openexr)
+#  Stateless C++ modules: image codecs, tile data, math utilities.
+#  No OS API calls. Depends only on third-party libs (libpng, GLM).
 #  Phase 3+: text (HarfBuzz, FreeType)
-#  Phase 4+: color management (LittleCMS 2)
+#  Phase 4+: color management (LittleCMS 2), additional codecs
 # ─────────────────────────────────────────────────────────────────────────────
 
-add_library(dexilate_core INTERFACE)
+add_library(dexilate_core STATIC
+    src/Tile.cpp
+    src/codecs/PngCodec.cpp
+)
 add_library(dexilate::core ALIAS dexilate_core)
 
 target_include_directories(dexilate_core
-    INTERFACE
+    PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
 )
 
-target_compile_features(dexilate_core INTERFACE cxx_std_20)
+target_compile_features(dexilate_core PUBLIC cxx_std_20)
 
-target_link_libraries(dexilate_core INTERFACE glm::glm)
+target_link_libraries(dexilate_core
+    PUBLIC  glm::glm
+    PRIVATE PNG::PNG
+)
 
-# Phase 0 stub — no sources yet. Promote to STATIC when Phase 1 adds files.
+# libpng puts pnglibconf.h in its binary dir — expose it for PngCodec.cpp
+target_include_directories(dexilate_core PRIVATE
+    $<TARGET_PROPERTY:png_static,INTERFACE_INCLUDE_DIRECTORIES>
+)
