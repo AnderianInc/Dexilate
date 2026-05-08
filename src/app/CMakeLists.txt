@@ -16,9 +16,13 @@ set(_app_sources
     gpu/TileUploader.cpp
 )
 
-# qt_add_executable sets WIN32/MACOSX_BUNDLE per-platform and links
-# Qt6::EntryPoint on Windows (needed so that WinMain → main() works).
-qt_add_executable(dexilate_app ${_app_sources})
+if(APPLE)
+    add_executable(dexilate_app MACOSX_BUNDLE ${_app_sources})
+else()
+    # No WIN32 flag: use standard main() entry point on all non-Apple platforms.
+    # WIN32 without Qt6::EntryPoint would cause a WinMain linker error on Windows.
+    add_executable(dexilate_app ${_app_sources})
+endif()
 
 set_target_properties(dexilate_app PROPERTIES OUTPUT_NAME "dexilate")
 
