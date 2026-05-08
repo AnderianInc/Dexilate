@@ -26,8 +26,3 @@ target_link_libraries(dexilate_core
     PUBLIC  glm::glm
     PRIVATE PNG::PNG
 )
-
-# libpng puts pnglibconf.h in its binary dir — expose it for PngCodec.cpp
-target_include_directories(dexilate_core PRIVATE
-    $<TARGET_PROPERTY:png_static,INTERFACE_INCLUDE_DIRECTORIES>
-)

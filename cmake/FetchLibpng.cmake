@@ -24,11 +24,22 @@ if(NOT ZLIB_FOUND)
     set(ZLIB_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
     FetchContent_MakeAvailable(_dex_zlib)
 
-    # Expose cache vars so libpng's own find_package(ZLIB) resolves to our copy
-    set(ZLIB_INCLUDE_DIR  "${_dex_zlib_SOURCE_DIR};${_dex_zlib_BINARY_DIR}"
+    # Get the actual output name (madler/zlib uses OUTPUT_NAME "z", not "zlibstatic")
+    get_target_property(_dex_zlib_outname zlibstatic OUTPUT_NAME)
+    if(NOT _dex_zlib_outname)
+        set(_dex_zlib_outname "zlibstatic")
+    endif()
+
+    # ZLIB_LIBRARY must be an *absolute* path so that find_library() inside
+    # libpng's cmake skips the filesystem search.  find_library() only skips
+    # when the cached value is an absolute path; a bare target name is not.
+    set(ZLIB_INCLUDE_DIR
+        "${_dex_zlib_SOURCE_DIR};${_dex_zlib_BINARY_DIR}"
         CACHE PATH "" FORCE)
-    set(ZLIB_LIBRARY      zlibstatic CACHE FILEPATH "" FORCE)
-    set(ZLIB_FOUND        TRUE       CACHE BOOL     "" FORCE)
+    set(ZLIB_LIBRARY
+        "${CMAKE_ARCHIVE_OUTPUT_DIRECTORY}/${CMAKE_STATIC_LIBRARY_PREFIX}${_dex_zlib_outname}${CMAKE_STATIC_LIBRARY_SUFFIX}"
+        CACHE FILEPATH "" FORCE)
+    set(ZLIB_FOUND TRUE CACHE BOOL "" FORCE)
 
     if(NOT TARGET ZLIB::ZLIB)
         add_library(ZLIB::ZLIB ALIAS zlibstatic)
@@ -49,6 +60,13 @@ FetchContent_Declare(_dex_png
     GIT_SHALLOW    TRUE
 )
 FetchContent_MakeAvailable(_dex_png)
+
+# libpng only adds its source dir to INTERFACE_INCLUDE_DIRECTORIES.
+# pnglibconf.h is generated in the binary dir — expose it so all consumers
+# (e.g. dexilate_core) can include it without a system-level fallback.
+target_include_directories(png_static INTERFACE
+    $<BUILD_INTERFACE:${_dex_png_BINARY_DIR}>
+)
 
 if(TARGET png_static AND NOT TARGET PNG::PNG)
     add_library(PNG::PNG ALIAS png_static)
