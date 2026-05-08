@@ -182,8 +182,8 @@ The project is divided into six sequential phases. Each phase has a defined entr
 | **Phase**   | **Description**                                                                     | **Duration** | **Status**      | **Owner**        |
 | ----------- | ----------------------------------------------------------------------------------- | ------------ | --------------- | ---------------- |
 | **Phase 0** | Toolchain, CI/CD, and 'Hello Dexilate' - a GPU-rendered window on all three platforms | 2 weeks      | **Complete**    | Engineering Lead |
-| **Phase 1** | Raster core: single layer, brush tool, eraser, zoom/pan, PNG open/save              | 8 weeks      | **In Progress** | Engineering Lead |
-| **Phase 2** | Layer system: blend modes, opacity, groups, adjustment layers, history/undo         | 10 weeks     | **Not Started** | Raster Team      |
+| **Phase 1** | Raster core: single layer, brush tool, eraser, zoom/pan, PNG open/save              | 8 weeks      | **Complete**    | Engineering Lead |
+| **Phase 2** | Layer system: blend modes, opacity, groups, adjustment layers, history/undo         | 10 weeks     | **In Progress** | Raster Team      |
 | **Phase 3** | Vector engine: pen tool, shape tools, boolean ops, text, SVG import/export          | 12 weeks     | **Not Started** | Vector Team      |
 | **Phase 4** | Unified document: mixed raster+vector, PSD import, PDF export, smart objects        | 10 weeks     | **Not Started** | Full Team        |
 | **Phase 5** | Polish: GPU filter pipeline, color management, plugin API, packaging, QA            | 8 weeks      | **Not Started** | Full Team        |
@@ -259,7 +259,7 @@ The project is divided into six sequential phases. Each phase has a defined entr
 | **Milestone**               | **Target Date** | **Deliverable**                                                    | **Status**      |
 | --------------------------- | --------------- | ------------------------------------------------------------------ | --------------- |
 | **M0 - Hello Dexilate**       | Week 2          | GPU-rendered window opens on macOS, Windows, Linux from CI build   | **Complete**    |
-| **M1 - First Brush Stroke** | Week 6          | Open PNG, paint with pressure-sensitive brush, save PNG            | **Not Started** |
+| **M1 - First Brush Stroke** | Week 6          | Open PNG, paint with pressure-sensitive brush, save PNG            | **Complete**    |
 | **M2 - Layer Alpha**        | Week 10         | Multi-layer document with GPU-composited blend modes and undo/redo | **Not Started** |
 | **M3 - Vector Alpha**       | Week 20         | Pen tool, shape tools, boolean ops, stroke/fill, SVG round-trip    | **Not Started** |
 | **M4 - Unified Alpha**      | Week 28         | Mixed raster+vector document, PSD import, adjustment layers, text  | **Not Started** |
@@ -484,7 +484,7 @@ These blockers exist in the current committed files and must be resolved before 
 - [x] `tests/engine/test_brush.cpp` — TileManager grid/dirty, RasterLayer painting, BrushEngine dab/segment, Eraser
 
 ### Milestone Gate: M1
-- [ ] Open PNG file, paint strokes with pressure-sensitive brush, save PNG — all on all three platforms
+- [x] Open PNG file, paint strokes with pressure-sensitive brush, save PNG — all on all three platforms
 
 ---
 
@@ -683,4 +683,4 @@ These blockers exist in the current committed files and must be resolved before 
 
 ---
 
-*Last updated: May 2026 · Items reflect codebase state as of initial scaffold commit*
+*Last updated: May 2026 · Phase 1 complete and merged to main — CI green on macOS arm64, Windows x64, Linux x64*
