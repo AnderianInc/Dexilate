@@ -157,8 +157,6 @@ find_package(Qt6 6.4 REQUIRED COMPONENTS
     Core
     Gui
     Widgets
-    OpenGL       # For GPU surface hosting
-    OpenGLWidgets
 )
 message(STATUS "[Dexilate] Qt6 found: ${Qt6_VERSION} at ${Qt6_DIR}")
 # qt_standard_project_setup() intentionally NOT called here. Calling it in the
@@ -214,6 +212,11 @@ FetchContent_Declare(nlohmann_json
 )
 FetchContent_MakeAvailable(nlohmann_json)
 # Provides: nlohmann_json::nlohmann_json (INTERFACE target)
+
+# ── libpng 1.6 + zlib (PNG image codec) ──────────────────────────────────────
+# Provides PNG::PNG (png_static) and ZLIB::ZLIB.
+# zlib is taken from the system when available; fetched otherwise (Windows).
+include(cmake/FetchLibpng.cmake)
 
 # ── wgpu-native (GPU abstraction: Metal / D3D12 / Vulkan) ─────────────────────
 # Downloads prebuilt binaries from the official GitHub release.

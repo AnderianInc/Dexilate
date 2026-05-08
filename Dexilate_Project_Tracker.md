@@ -181,8 +181,8 @@ The project is divided into six sequential phases. Each phase has a defined entr
 
 | **Phase**   | **Description**                                                                     | **Duration** | **Status**      | **Owner**        |
 | ----------- | ----------------------------------------------------------------------------------- | ------------ | --------------- | ---------------- |
-| **Phase 0** | Toolchain, CI/CD, and 'Hello Dexilate' - a GPU-rendered window on all three platforms | 2 weeks      | **Not Started** | Engineering Lead |
-| **Phase 1** | Raster core: single layer, brush tool, eraser, zoom/pan, PNG open/save              | 8 weeks      | **Not Started** | Raster Team      |
+| **Phase 0** | Toolchain, CI/CD, and 'Hello Dexilate' - a GPU-rendered window on all three platforms | 2 weeks      | **Complete**    | Engineering Lead |
+| **Phase 1** | Raster core: single layer, brush tool, eraser, zoom/pan, PNG open/save              | 8 weeks      | **In Progress** | Engineering Lead |
 | **Phase 2** | Layer system: blend modes, opacity, groups, adjustment layers, history/undo         | 10 weeks     | **Not Started** | Raster Team      |
 | **Phase 3** | Vector engine: pen tool, shape tools, boolean ops, text, SVG import/export          | 12 weeks     | **Not Started** | Vector Team      |
 | **Phase 4** | Unified document: mixed raster+vector, PSD import, PDF export, smart objects        | 10 weeks     | **Not Started** | Full Team        |
@@ -258,7 +258,7 @@ The project is divided into six sequential phases. Each phase has a defined entr
 
 | **Milestone**               | **Target Date** | **Deliverable**                                                    | **Status**      |
 | --------------------------- | --------------- | ------------------------------------------------------------------ | --------------- |
-| **M0 - Hello Dexilate**       | Week 2          | GPU-rendered window opens on macOS, Windows, Linux from CI build   | **Not Started** |
+| **M0 - Hello Dexilate**       | Week 2          | GPU-rendered window opens on macOS, Windows, Linux from CI build   | **Complete**    |
 | **M1 - First Brush Stroke** | Week 6          | Open PNG, paint with pressure-sensitive brush, save PNG            | **Not Started** |
 | **M2 - Layer Alpha**        | Week 10         | Multi-layer document with GPU-composited blend modes and undo/redo | **Not Started** |
 | **M3 - Vector Alpha**       | Week 20         | Pen tool, shape tools, boolean ops, stroke/fill, SVG round-trip    | **Not Started** |
@@ -432,12 +432,12 @@ These blockers exist in the current committed files and must be resolved before 
 - [x] `tests/platform/test_window.cpp` — Catch2 integration tests for `IWindow` lifecycle; `SKIP` guards for headless CI
 - [x] `tests/platform/test_input_event.cpp` — headless unit tests: `Modifiers` bitmask, `KeyCode` ASCII values, `InputEvent` variant + `std::visit`
 - [x] Wire `tests/` into CMake — `add_dexilate_test` helper; `catch_discover_tests` CTest registration
-- [ ] CI: confirm CTest runs and reports pass/fail per platform
+- [x] CI: confirm CTest runs and reports pass/fail per platform
 
 ### Milestone Gate: M0
-- [ ] White canvas window opens on macOS, Windows, and Linux from a single CI build artifact
-- [ ] All Catch2 PAL tests pass on all three runners
-- [ ] CI is fully green (build + test + SPDX check + artifact upload)
+- [x] White canvas window opens on macOS, Windows, and Linux from a single CI build artifact
+- [x] All Catch2 PAL tests pass on all three runners
+- [x] CI is fully green (build + test + SPDX check + artifact upload)
 
 ---
 
@@ -446,41 +446,42 @@ These blockers exist in the current committed files and must be resolved before 
 *Goal: Open a PNG, paint with a pressure-sensitive brush, save PNG.*
 
 ### Core Data Structures
-- [ ] `src/core/Tile.h` / `Tile.cpp` — 256×256 pixel buffer, CPU-side, 8-bit and 16-bit variants
-- [ ] `src/engine/raster/TileManager.cpp` — tile grid, dirty region tracking, LRU eviction
-- [ ] `src/engine/document/Document.cpp` — single raster layer document model (width, height, bit depth)
-- [ ] `src/engine/document/Layer.h` — base layer type; `RasterLayer` subclass with tile grid
+- [x] `src/core/Tile.h` / `Tile.cpp` — 256×256 RGBA8 pixel buffer, dirty tracking
+- [x] `src/engine/raster/TileManager.h/cpp` — tile grid, dirty region tracking
+- [x] `src/engine/document/Document.h/cpp` — single raster layer document model
+- [x] `src/engine/document/Layer.h/cpp` — base `Layer` type; `RasterLayer` subclass with tile grid and src-over `paintPixel`
 
 ### Image Codecs
-- [ ] Add libpng 1.6 via `FetchContent`
-- [ ] Add libjpeg-turbo 3.x via `FetchContent`
-- [ ] `src/core/codecs/ICodec.h` — common decode/encode interface for all formats
-- [ ] `src/core/codecs/PngCodec.cpp` — PNG read (into `RasterLayer`) and write (from `RasterLayer`)
+- [x] Add libpng 1.6 via `FetchContent` (`cmake/FetchLibpng.cmake`; zlib via system or FetchContent)
+- [ ] Add libjpeg-turbo 3.x via `FetchContent` (Phase 4)
+- [x] `src/core/ICodec.h` — common decode/encode interface
+- [x] `src/core/codecs/PngCodec.h/cpp` — PNG read/write via libpng; any colour type → RGBA8
 
 ### Brush Engine
-- [ ] `src/engine/raster/BrushEngine.cpp` — round brush: dab placement, spacing, pressure→opacity/size mapping
-- [ ] `src/engine/raster/Eraser.cpp` — eraser composites onto alpha channel
-- [ ] `src/engine/raster/InputSampler.cpp` — converts stylus `InputEvent` stream to brush dab sequence
+- [x] `src/engine/raster/BrushEngine.h/cpp` — round brush: softness falloff, pressure→size/opacity, segment spacing
+- [x] `src/engine/raster/Eraser.h/cpp` — erase-to-transparency via alpha reduction
+- [x] `src/engine/raster/InputSampler.h/cpp` — converts pointer/stylus event stream to spaced dab sequence
 
 ### View Transform
-- [ ] `src/engine/viewport/ViewTransform.cpp` — affine matrix: pan (click-drag), zoom (scroll 0.1×–64×), rotate
-- [ ] Keyboard shortcuts: Space+drag = pan, Ctrl+scroll = zoom, R = rotate
+- [x] `src/engine/viewport/ViewTransform.h/cpp` — pan + zoom (0.05×–64×); screen↔canvas conversion; wgpu shader matrix
+- [ ] Keyboard shortcuts: Space+drag = pan, Ctrl+scroll = zoom (Phase 2)
 
 ### GPU Upload
-- [ ] `src/engine/gpu/TileUploader.cpp` — dirty tile CPU→GPU texture upload per frame
-- [ ] `assets/shaders/composite.wgsl` — single-layer tile quad compositing shader
-- [ ] Frame loop: collect dirty tiles → upload → composite pass → present
+- [x] `src/app/gpu/TileUploader.h/cpp` — dirty tile CPU→GPU texture upload via `wgpuQueueWriteTexture`
+- [x] `assets/shaders/composite.wgsl` — canvas quad shader with view transform + checkerboard transparency
+- [ ] Frame loop wired to Qt canvas (Phase 2 — Phase 1 uses QPainter software render)
 
 ### Qt6 Shell (Phase 1 scope)
-- [ ] `src/ui/MainWindow.cpp` — `QMainWindow` subclass with menu bar: File → New, Open, Save, Save As, Quit
-- [ ] `src/ui/DexilateWidget.cpp` — `QWidget` embedding raw GPU surface via `QWindow::fromWinId`
-- [ ] `src/ui/ToolOptionsBar.cpp` — brush size and opacity sliders
-- [ ] `src/ui/StatusBar.cpp` — cursor coordinates, zoom level, document dimensions
+- [x] `src/ui/MainWindow.cpp` — `QMainWindow`: File (New/Open/Save/SaveAs/Quit) + View (ZoomIn/Out/Fit) menus
+- [x] `src/ui/CanvasWidget.cpp` — `QWidget` with QPainter software render; mouse + tablet event → brush dabs
+- [x] `src/ui/ToolOptionsBar.cpp` — brush size, opacity sliders + colour picker
+- [x] `src/ui/StatusBar.cpp` — cursor coordinates, zoom %, document dimensions, modified indicator
+- [x] `src/app/DexilateApp.h/cpp` — app lifecycle; creates blank document and shows MainWindow
 
 ### Tests
-- [ ] `tests/core/test_tile.cpp` — tile allocation, dirty marking, pixel read/write
-- [ ] `tests/core/test_png_codec.cpp` — round-trip: write known pixels → read back → assert equal
-- [ ] `tests/engine/test_brush.cpp` — dab placement at known pressure values
+- [x] `tests/core/test_tile.cpp` — tile constants, fill, pixel read/write, dirty flag
+- [x] `tests/core/test_png_codec.cpp` — round-trip encode→decode, error handling, edge cases
+- [x] `tests/engine/test_brush.cpp` — TileManager grid/dirty, RasterLayer painting, BrushEngine dab/segment, Eraser
 
 ### Milestone Gate: M1
 - [ ] Open PNG file, paint strokes with pressure-sensitive brush, save PNG — all on all three platforms
