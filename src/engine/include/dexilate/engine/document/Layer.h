@@ -9,6 +9,7 @@
 
 #include <memory>
 #include <string>
+#include <vector>
 #include <cstdint>
 #include <cmath>
 #include <algorithm>
@@ -33,6 +34,7 @@ public:
 
     std::string name      = "Layer";
     bool        visible   = true;
+    bool        locked    = false;
     float       opacity   = 1.0f;
     BlendMode   blendMode = BlendMode::Normal;
 };
@@ -66,6 +68,47 @@ public:
 private:
     uint32_t    _width, _height;
     TileManager _tiles;
+};
+
+// ── Group layer ────────────────────────────────────────────────────────────────
+class GroupLayer : public Layer {
+public:
+    explicit GroupLayer(std::string name = "Group");
+
+    void addLayer(std::unique_ptr<Layer> layer);
+    void removeLayer(int index);
+    int  layerCount() const noexcept;
+    Layer*       layerAt(int index)       noexcept;
+    const Layer* layerAt(int index) const noexcept;
+
+    // Composite all child layers into output buffer using their blend modes.
+    void composite(uint8_t* out, uint32_t outW, uint32_t outH) const;
+
+private:
+    std::vector<std::unique_ptr<Layer>> _children;
+};
+
+// ── Adjustment layers ──────────────────────────────────────────────────────────
+enum class AdjustmentType { Curves, Levels, HueSaturation, ColorBalance, BrightnessContrast };
+
+class AdjustmentLayer : public Layer {
+public:
+    explicit AdjustmentLayer(AdjustmentType type, std::string name = "Adjustment");
+    AdjustmentType adjustmentType() const noexcept { return _type; }
+
+    // Apply this adjustment in-place to an RGBA8 buffer.
+    virtual void apply(uint8_t* pixels, uint32_t w, uint32_t h) const = 0;
+
+private:
+    AdjustmentType _type;
+};
+
+class BrightnessContrastLayer : public AdjustmentLayer {
+public:
+    BrightnessContrastLayer();
+    float brightness = 0.0f;  // -1.0 to +1.0
+    float contrast   = 0.0f;  // -1.0 to +1.0
+    void apply(uint8_t* pixels, uint32_t w, uint32_t h) const override;
 };
 
 } // namespace dexilate::engine
