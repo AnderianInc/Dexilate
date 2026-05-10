@@ -15,11 +15,9 @@
 
 namespace dexilate::engine {
 
-// Single-layer raster document for Phase 1.
-// Phase 2 will extend this to a heterogeneous layer tree.
 class Document {
 public:
-    // Create a blank white-canvas document (all pixels transparent).
+    // Create a blank transparent-canvas document.
     Document(uint32_t width, uint32_t height, std::string title = "Untitled");
 
     // Create a document from a decoded image (one raster layer).
@@ -36,15 +34,33 @@ public:
     void markModified()              { _modified = true; }
     void clearModified()             { _modified = false; }
 
-    // Layer access — Phase 1 always has exactly one raster layer.
-    RasterLayer*       activeLayer()       noexcept;
-    const RasterLayer* activeLayer() const noexcept;
-
-    int  layerCount() const noexcept { return static_cast<int>(_layers.size()); }
-
     // File path associated with the document (empty if never saved).
     const std::filesystem::path& filePath() const noexcept { return _filePath; }
     void setFilePath(std::filesystem::path p) { _filePath = std::move(p); }
+
+    // Layer stack management
+    int  layerCount()  const noexcept;
+    int  activeIndex() const noexcept { return _activeIndex; }
+    void setActiveIndex(int i);
+
+    Layer*       layerAt(int i)       noexcept;
+    const Layer* layerAt(int i) const noexcept;
+
+    // Returns nullptr if the active layer is not a RasterLayer.
+    RasterLayer* activeLayer() noexcept;
+    const RasterLayer* activeLayer() const noexcept;
+
+    // Returns the new layer's index.
+    int addLayer(std::unique_ptr<Layer> layer);
+    // Convenience: adds a blank raster layer and returns its index.
+    int addRasterLayer(std::string name = "Layer");
+
+    void removeLayer(int index);
+    void moveLayer(int from, int to);
+    void duplicateLayer(int index);
+
+    // Flatten all visible layers into a single RGBA8 buffer (for save/export).
+    std::vector<uint8_t> flatten() const;
 
 private:
     uint32_t    _width, _height;

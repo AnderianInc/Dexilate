@@ -6,6 +6,8 @@
 #include "CanvasWidget.h"
 #include "ToolOptionsBar.h"
 #include "StatusBar.h"
+#include "LayerPanel.h"
+#include "HistoryPanel.h"
 
 #include "dexilate/engine/document/Document.h"
 #include "dexilate/core/codecs/PngCodec.h"
@@ -40,6 +42,27 @@ MainWindow::MainWindow(QWidget* parent)
     _statusBar = new DexStatusBar(this);
     setStatusBar(_statusBar);
 
+    // ── Dock panels ──────────────────────────────────────────────────────────
+    _layerPanel = new LayerPanel(this);
+    addDockWidget(Qt::RightDockWidgetArea, _layerPanel);
+    connect(_layerPanel, &LayerPanel::layerSelected, this, [this](int) {
+        _canvas->update();
+    });
+    connect(_layerPanel, &LayerPanel::layerAdded, this, [this]() {
+        _canvas->update();
+        _doc->markModified();
+        updateTitle();
+    });
+    connect(_layerPanel, &LayerPanel::layerRemoved, this, [this](int) {
+        _canvas->update();
+        _doc->markModified();
+        updateTitle();
+    });
+
+    _historyPanel = new HistoryPanel(this);
+    addDockWidget(Qt::RightDockWidgetArea, _historyPanel);
+    _historyPanel->setHistoryManager(&_history);
+
     // ── Menus ─────────────────────────────────────────────────────────────────
     QMenu* fileMenu = menuBar()->addMenu("&File");
     auto* actNew    = fileMenu->addAction("&New",        QKeySequence::New,       this, &MainWindow::onNew);
@@ -51,6 +74,18 @@ MainWindow::MainWindow(QWidget* parent)
     fileMenu->addSeparator();
     fileMenu->addAction("&Quit", QKeySequence::Quit, this, &QWidget::close);
     (void)actNew; (void)actOpen; (void)actSave; (void)actSaveAs;
+
+    QMenu* editMenu = menuBar()->addMenu("&Edit");
+    _actUndo = editMenu->addAction("&Undo", QKeySequence::Undo, this, &MainWindow::onUndo);
+    _actRedo = editMenu->addAction("&Redo", QKeySequence(Qt::CTRL | Qt::SHIFT | Qt::Key_Z),
+                                   this, &MainWindow::onRedo);
+    editMenu->addSeparator();
+    editMenu->addAction("Cu&t",   QKeySequence::Cut,   this, &MainWindow::onCut);
+    editMenu->addAction("&Copy",  QKeySequence::Copy,  this, &MainWindow::onCopy);
+    editMenu->addAction("&Paste", QKeySequence::Paste, this, &MainWindow::onPaste);
+
+    _actUndo->setEnabled(false);
+    _actRedo->setEnabled(false);
 
     QMenu* viewMenu = menuBar()->addMenu("&View");
     viewMenu->addAction("Zoom &In",       QKeySequence(Qt::CTRL | Qt::Key_Equal), this, &MainWindow::onZoomIn);
@@ -65,6 +100,7 @@ void MainWindow::setDocument(std::unique_ptr<engine::Document> doc) {
 
 void MainWindow::applyDocument() {
     _canvas->setDocument(_doc.get());
+    _layerPanel->setDocument(_doc.get());
     if (_doc) {
         _statusBar->setDocumentSize(_doc->width(), _doc->height());
         _statusBar->setZoom(_canvas->viewTransform().zoom());
@@ -84,6 +120,8 @@ void MainWindow::updateTitle() {
 void MainWindow::onNew() {
     if (!maybeSave()) return;
     _doc = std::make_unique<engine::Document>(1920u, 1080u, "Untitled");
+    _history.clear();
+    onHistoryChanged();
     applyDocument();
 }
 
@@ -99,6 +137,8 @@ void MainWindow::onOpen() {
         auto img = codec.decode(std::filesystem::path(path.toStdString()));
         _doc = std::make_unique<engine::Document>(
             engine::Document::fromImage(img, std::filesystem::path(path.toStdString())));
+        _history.clear();
+        onHistoryChanged();
         applyDocument();
     } catch (const std::exception& e) {
         QMessageBox::critical(this, "Open Failed", e.what());
@@ -127,7 +167,6 @@ bool MainWindow::saveToPath(const std::filesystem::path& path) {
     auto* layer = _doc->activeLayer();
     if (!layer) return false;
     try {
-        // Composite all tiles into a flat RGBA8 buffer
         std::vector<uint8_t> buf(static_cast<size_t>(_doc->width()) * _doc->height() * 4);
         layer->composite(buf.data(), _doc->width(), _doc->height());
         core::PngCodec codec;
@@ -170,6 +209,39 @@ void MainWindow::onDocumentModified() {
 
 void MainWindow::onCursorMoved(float x, float y) {
     _statusBar->setCursorPosition(x, y);
+}
+
+// ── Edit actions ──────────────────────────────────────────────────────────────
+void MainWindow::onUndo() {
+    if (!_history.canUndo()) return;
+    _history.undo();
+    onHistoryChanged();
+    _canvas->update();
+}
+
+void MainWindow::onRedo() {
+    if (!_history.canRedo()) return;
+    _history.redo();
+    onHistoryChanged();
+    _canvas->update();
+}
+
+void MainWindow::onCut() {
+    _statusBar->showMessage("Cut: not yet implemented", 2000);
+}
+
+void MainWindow::onCopy() {
+    _statusBar->showMessage("Copy: not yet implemented", 2000);
+}
+
+void MainWindow::onPaste() {
+    _statusBar->showMessage("Paste: not yet implemented", 2000);
+}
+
+void MainWindow::onHistoryChanged() {
+    _actUndo->setEnabled(_history.canUndo());
+    _actRedo->setEnabled(_history.canRedo());
+    _historyPanel->refresh();
 }
 
 } // namespace dexilate::ui

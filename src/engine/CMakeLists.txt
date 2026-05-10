@@ -13,10 +13,15 @@ add_library(dexilate_engine STATIC
     src/raster/TileManager.cpp
     src/document/Layer.cpp
     src/document/Document.cpp
+    src/document/HistoryManager.cpp
     src/raster/BrushEngine.cpp
     src/raster/Eraser.cpp
     src/raster/InputSampler.cpp
+    src/raster/Selection.cpp
+    src/raster/Compositor.cpp
     src/viewport/ViewTransform.cpp
+    src/tools/RectMarqueeTool.cpp
+    src/tools/LassoTool.cpp
 )
 add_library(dexilate::engine ALIAS dexilate_engine)
 
