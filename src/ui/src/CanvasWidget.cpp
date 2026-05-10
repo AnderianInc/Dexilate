@@ -4,6 +4,7 @@
 
 #include "CanvasWidget.h"
 #include "dexilate/engine/document/Document.h"
+#include "dexilate/engine/raster/Compositor.h"
 
 #include <QPainter>
 #include <QMouseEvent>
@@ -63,18 +64,21 @@ void CanvasWidget::paintEvent(QPaintEvent*) {
 
     if (!_doc) return;
 
-    auto* layer = _doc->activeLayer();
-    if (!layer) return;
+    uint32_t w = _doc->width();
+    uint32_t h = _doc->height();
 
-    // Composite the active layer into a QImage (RGBA8)
-    QImage img(static_cast<int>(layer->width()),
-               static_cast<int>(layer->height()),
-               QImage::Format_RGBA8888);
-    layer->composite(img.bits(), layer->width(), layer->height());
+    QImage img(static_cast<int>(w), static_cast<int>(h), QImage::Format_RGBA8888);
 
-    // Apply view transform: translate then scale
-    auto pan  = _view.panOffset();
-    float z   = _view.zoom();
+    if (_doc->layerCount() == 1) {
+        auto* layer = _doc->activeLayer();
+        if (!layer) return;
+        layer->composite(img.bits(), w, h);
+    } else {
+        engine::Compositor::composite(*_doc, img.bits(), w, h);
+    }
+
+    auto pan = _view.panOffset();
+    float z  = _view.zoom();
     painter.translate(static_cast<double>(pan.x), static_cast<double>(pan.y));
     painter.scale(static_cast<double>(z), static_cast<double>(z));
     painter.drawImage(0, 0, img);

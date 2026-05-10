@@ -16,6 +16,8 @@ add_library(dexilate_ui STATIC
     src/ToolOptionsBar.cpp
     src/StatusBar.cpp
     src/MainWindow.cpp
+    src/LayerPanel.cpp
+    src/HistoryPanel.cpp
 )
 add_library(dexilate::ui ALIAS dexilate_ui)
 
