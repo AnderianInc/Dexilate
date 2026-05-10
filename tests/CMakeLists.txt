@@ -40,3 +40,7 @@ add_dexilate_test(test_window       platform/test_window.cpp)
 add_dexilate_test(test_tile       core/test_tile.cpp)
 add_dexilate_test(test_png_codec  core/test_png_codec.cpp)
 add_dexilate_test(test_brush      engine/test_brush.cpp)
+
+# ── Phase 2 tests ─────────────────────────────────────────────────────────────
+add_dexilate_test(test_compositor  engine/test_compositor.cpp)
+add_dexilate_test(test_history     engine/test_history.cpp)

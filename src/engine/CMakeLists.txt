@@ -20,6 +20,8 @@ add_library(dexilate_engine STATIC
     src/raster/Selection.cpp
     src/raster/Compositor.cpp
     src/viewport/ViewTransform.cpp
+    src/tools/RectMarqueeTool.cpp
+    src/tools/LassoTool.cpp
 )
 add_library(dexilate::engine ALIAS dexilate_engine)
 
