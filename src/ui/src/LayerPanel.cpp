@@ -63,7 +63,7 @@ void LayerPanel::rebuildList() {
     int count = _doc->layerCount();
     for (int i = count - 1; i >= 0; --i) {
         auto* layer = _doc->layerAt(i);
-        QString name = layer ? QString::fromStdString(layer->name()) : QStringLiteral("Layer %1").arg(i);
+        QString name = layer ? QString::fromStdString(layer->name) : QStringLiteral("Layer %1").arg(i);
         auto* item = new QListWidgetItem(name, _list);
         item->setData(Qt::UserRole, i);
     }
